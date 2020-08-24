@@ -1,0 +1,84 @@
+{
+	"id": "a9f4d1eb-17a6-3cf4-b0ad-701a8bb20d72",
+	"name": "BeanstalkCollection",
+	"description": "",
+	"order": [
+		"0708cc79-5a20-e61f-9296-2be2724f91ef",
+		"690837dd-5299-5788-4e18-bb235868a157"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1598260592315,
+	"owner": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "0708cc79-5a20-e61f-9296-2be2724f91ef",
+			"url": "http://bmsbeanstalk617206-env.eba-p3f5wp3c.us-east-1.elasticbeanstalk.com/customeregistration",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/json\nAuthorization: Basic Og==\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic Og==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": "",
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://bmsbeanstalk617206-env.eba-p3f5wp3c.us-east-1.elasticbeanstalk.com/customeregistration",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "a9f4d1eb-17a6-3cf4-b0ad-701a8bb20d72",
+			"rawModeData": "{\r\n  \"firstName\": \"msaravanan\",\r\n  \"lastName\": \"msaravanan\",\r\n  \"email\": \"msaravanancms@gmail.com\",\r\n  \"password\": \"msaravanan\",\r\n  \"customerId\": \"555999\",\r\n  \"address\": \"Chennai\",\r\n  \"state\": \"amilnad\",\r\n  \"country\": \"India\",\r\n  \"accountName\": \"Saving\",\r\n  \"accountNumber\": 444999,\r\n  \"panNumber\": \"45454\",\r\n  \"accountType\": \"string\",\r\n  \"dob\": \"22490\"\r\n}"
+		},
+		{
+			"id": "690837dd-5299-5788-4e18-bb235868a157",
+			"url": "http://bmsbeanstalk617206-env.eba-p3f5wp3c.us-east-1.elasticbeanstalk.com/login",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/json\nAuthorization: Basic Og==\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic Og==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": "",
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "http://bmsbeanstalk617206-env.eba-p3f5wp3c.us-east-1.elasticbeanstalk.com/login",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "a9f4d1eb-17a6-3cf4-b0ad-701a8bb20d72",
+			"rawModeData": "{ \"customerId\": \"555888\",\r\n    \"password\": \"sharish\"\r\n}"
+		}
+	]
+}

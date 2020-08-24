@@ -1,0 +1,154 @@
+{
+	"id": "0e725079-b7db-f3e8-3000-2ca1dddbcf90",
+	"name": "ApI Gateway",
+	"description": "",
+	"order": [
+		"92c5de0a-9001-9733-4ff1-9c856973ed9a",
+		"20debb3d-6889-9f59-73f1-e5d0f25bd9f2",
+		"5e4d0f68-c086-8956-8aff-6c355a90d9c8",
+		"b72f0a2b-c846-3ef5-7375-aef7db04e443"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1598261334254,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "20debb3d-6889-9f59-73f1-e5d0f25bd9f2",
+			"url": "\nhttps://twb7b4gk8i.execute-api.us-east-1.amazonaws.com/dev/login",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/json\nAuthorization: Basic Og==\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic Og==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": "",
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "\nhttps://twb7b4gk8i.execute-api.us-east-1.amazonaws.com/dev/login",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0e725079-b7db-f3e8-3000-2ca1dddbcf90",
+			"rawModeData": "\r\n{ \"customerId\": \"555889\",\r\n    \"password\": \"msmaran\"\r\n}"
+		},
+		{
+			"id": "5e4d0f68-c086-8956-8aff-6c355a90d9c8",
+			"url": "\nhttps://twb7b4gk8i.execute-api.us-east-1.amazonaws.com/dev/customeregistration",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/json\nAuthorization: Basic Og==\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic Og==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": "",
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "\nhttps://twb7b4gk8i.execute-api.us-east-1.amazonaws.com/dev/customeregistration",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0e725079-b7db-f3e8-3000-2ca1dddbcf90",
+			"rawModeData": "{\r\n  \"firstName\": \"msaravanan\",\r\n  \"lastName\": \"msaravanan\",\r\n  \"email\": \"msaravanancms@gmail.com\",\r\n  \"password\": \"msaravanan\",\r\n  \"customerId\": \"5559979\",\r\n  \"address\": \"Chennai\",\r\n  \"state\": \"amilnad\",\r\n  \"country\": \"India\",\r\n  \"accountName\": \"Saving\",\r\n  \"accountNumber\": 4449799,\r\n  \"panNumber\": \"45454\",\r\n  \"accountType\": \"string\",\r\n  \"dob\": \"22490\"\r\n}"
+		},
+		{
+			"id": "92c5de0a-9001-9733-4ff1-9c856973ed9a",
+			"url": "\nhttps://twb7b4gk8i.execute-api.us-east-1.amazonaws.com/dev/login",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/json\nAuthorization: Basic Og==\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic Og==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": "",
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "\nhttps://twb7b4gk8i.execute-api.us-east-1.amazonaws.com/dev/login",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0e725079-b7db-f3e8-3000-2ca1dddbcf90",
+			"rawModeData": "\r\n{ \"customerId\": \"555888\",\r\n    \"password\": \"sharish\"\r\n}"
+		},
+		{
+			"id": "b72f0a2b-c846-3ef5-7375-aef7db04e443",
+			"url": "\nhttps://twb7b4gk8i.execute-api.us-east-1.amazonaws.com/dev/customeregistration",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/json\nAuthorization: Basic Og==\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic Og==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": "",
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "\nhttps://twb7b4gk8i.execute-api.us-east-1.amazonaws.com/dev/customeregistration",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "0e725079-b7db-f3e8-3000-2ca1dddbcf90",
+			"rawModeData": "{\r\n  \"firstName\": \"msaravanan\",\r\n  \"lastName\": \"msaravanan\",\r\n  \"email\": \"msaravanancms@gmail.com\",\r\n  \"password\": \"msaravanan\",\r\n  \"customerId\": \"555999\",\r\n  \"address\": \"Chennai\",\r\n  \"state\": \"amilnad\",\r\n  \"country\": \"India\",\r\n  \"accountName\": \"Saving\",\r\n  \"accountNumber\": 444999,\r\n  \"panNumber\": \"45454\",\r\n  \"accountType\": \"string\",\r\n  \"dob\": \"22490\"\r\n}"
+		}
+	]
+}

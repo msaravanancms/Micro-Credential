@@ -1,0 +1,50 @@
+{
+	"id": "a8d81b32-25c7-1312-a8aa-3e92617d4ef6",
+	"name": "sqs",
+	"description": "",
+	"order": [
+		"15e2f045-7d78-7ecd-c9ca-3fbcb1d276a9"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1598262817247,
+	"owner": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "15e2f045-7d78-7ecd-c9ca-3fbcb1d276a9",
+			"url": "https://vc0u911kp1.execute-api.us-east-1.amazonaws.com/dev/login",
+			"queryParams": [],
+			"method": "POST",
+			"headers": "Content-Type: application/json\nAuthorization: Basic Og==\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Authorization",
+					"name": "Authorization",
+					"value": "Basic Og==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"preRequestScript": "",
+			"currentHelper": "normal",
+			"pathVariables": {},
+			"pathVariableData": [],
+			"version": 2,
+			"name": "https://vc0u911kp1.execute-api.us-east-1.amazonaws.com/dev/login",
+			"description": "",
+			"descriptionFormat": "html",
+			"collectionId": "a8d81b32-25c7-1312-a8aa-3e92617d4ef6",
+			"rawModeData": "{ \"customerId\": \"555889\",\r\n    \"password\": \"msmaran\"\r\n}"
+		}
+	]
+}
